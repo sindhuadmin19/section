@@ -73,7 +73,7 @@
 }
 
 .icon {
-  color: gray;
+  color: rgb(125, 125, 125);
   cursor: pointer;
 }
 
@@ -143,4 +143,11 @@ cursor: pointer;
 
 .search-button .icon {
 color: white;
-}  
+} 
+
+.js{
+  display: flex;
+  padding-left: 900px;
+  
+}
+

@@ -20,7 +20,7 @@ const Header = () => {
       {/* Navigation */}
       <nav className="nav-links">
         <div className="nav-item">
-          <MdGTranslate className="icon" /> EN ˅
+          <MdGTranslate color="blue"  /> EN ˅ 
         </div>
         <span className="nav-item">We are Hiring</span>
         <span className="nav-item">Investor Relations</span>
@@ -54,11 +54,15 @@ const Header = () => {
             <input type="text" placeholder="Search in Karwar" />
             <FaMicrophone className="icon" />
             <button className="search-button"><FaSearch /></button>
-          </div>
+            </div>
         </div>
-      </div>
+      </div><br /><br />
+      <div classname="js">
+        <button classname="bts">Download App</button></div>
      
     </div>
+    
+    
   );
 };
 
